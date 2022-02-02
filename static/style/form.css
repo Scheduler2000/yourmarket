@@ -1,0 +1,76 @@
+html,
+        body,
+        header,
+        .view {
+          height: 100vh;
+        }
+
+        @media (max-width: 740px) {
+          html,
+          body,
+          header,
+          .view {
+            height: 815px;
+          }
+        }
+
+        @media (min-width: 800px) and (max-width: 850px) {
+          html,
+          body,
+          header,
+          .view  {
+            height: 650px;
+          }
+        }
+
+        .intro-2 {
+           background-image: linear-gradient(to bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+        }
+        .top-nav-collapse {
+            background-color: #3f51b5 !important;
+        }
+        .navbar:not(.top-nav-collapse) {
+            background: transparent !important;
+        }
+        @media (max-width: 768px) {
+            .navbar:not(.top-nav-collapse) {
+                background: #3f51b5 !important;
+            }
+        }
+        @media (min-width: 800px) and (max-width: 850px) {
+            .navbar:not(.top-nav-collapse) {
+                background: #3f51b5!important;
+            }
+        }
+
+        .card {
+            background-color: rgba(229, 228, 255, 0.2);
+        }
+        .md-form label {
+            color: #ffffff;
+        }
+        h6 {
+            line-height: 1.7;
+        }
+        
+
+        .card {
+            margin-top: 30px;
+            /*margin-bottom: -45px;*/
+
+        }
+
+        .md-form input[type=text]:focus:not([readonly]),
+        .md-form input[type=password]:focus:not([readonly]) {
+            border-bottom: 1px solid #d16ba5;
+            box-shadow: 0 1px 0 0  #d16ba5;
+        }
+        .md-form input[type=text]:focus:not([readonly])+label,
+        .md-form input[type=password]:focus:not([readonly])+label {
+            color: #d16ba5;
+        }
+
+        .md-form .form-control {
+            color: black;
+        }
+        
